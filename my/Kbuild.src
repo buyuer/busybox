@@ -1,0 +1,5 @@
+lib-y :=
+
+lib-$(CONFIG_HELLO) += hello.o
+
+INSERT

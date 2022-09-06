@@ -1,0 +1,11 @@
+menu "my"
+
+config HELLO
+	bool "hello"
+	default y
+	help
+		one demo app
+
+INSERT
+
+endmenu

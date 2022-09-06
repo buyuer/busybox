@@ -34,6 +34,9 @@
 #define STR1(s) #s
 #define STR(s)  STR1(s)
 
+#define hello_trivial_usage "hello"
+#define hello_full_usage    "one demo applet and print hello"
+
 INSERT
 
 #define busybox_notes_usage \

@@ -85,6 +85,7 @@ s     - suid type:
 # define BB_DIR_USR_SBIN BB_DIR_SBIN
 #endif
 
+IF_HELLO(APPLET(hello, BB_DIR_USR_BIN, BB_SUID_DROP))
 
 INSERT
 
