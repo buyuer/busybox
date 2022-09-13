@@ -1,5 +1,6 @@
 lib-y :=
 
 lib-$(CONFIG_HELLO) += hello.o
+lib-$(CONFIG_MYSCL) += myscl.o
 
 INSERT

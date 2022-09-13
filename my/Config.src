@@ -6,6 +6,12 @@ config HELLO
 	help
 		one demo app
 
+config MYSCL
+	bool "scl cmd to call syscall"
+	default y
+	help
+		one demo of syscall
+
 INSERT
 
 endmenu

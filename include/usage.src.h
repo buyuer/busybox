@@ -37,6 +37,9 @@
 #define hello_trivial_usage "hello"
 #define hello_full_usage    "one demo applet and print hello"
 
+#define myscl_trivial_usage "myscl"
+#define myscl_full_usage    "one demo applet of syscall"
+
 INSERT
 
 #define busybox_notes_usage \

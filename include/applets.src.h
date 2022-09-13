@@ -86,6 +86,7 @@ s     - suid type:
 #endif
 
 IF_HELLO(APPLET(hello, BB_DIR_USR_BIN, BB_SUID_DROP))
+IF_HELLO(APPLET(myscl, BB_DIR_USR_BIN, BB_SUID_DROP))
 
 INSERT
 
